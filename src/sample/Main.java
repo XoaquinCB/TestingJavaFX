@@ -37,7 +37,7 @@ public class Main extends Application {
 
         // Scene & Stage
         scene = new Scene(layout, 350, 200);
-        stage.setTitle("My App");
+        stage.setTitle("My App (renamed by Xoaquin)");
         stage.setScene(scene);
         stage.show();
     }
