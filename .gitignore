@@ -1,0 +1,14 @@
+# Binaries
+*.jar
+*.class
+
+# IntelliJ
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Eclipse
+.settings/
+.classpath
+.project
