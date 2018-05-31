@@ -26,9 +26,9 @@ public class Main extends Application {
         stage = primaryStage;
 
         // Components
-        button = new Button("Click me!");
+        button = new Button("Click me");
         button.setOnAction(e -> new AlertBox().display());
-        label = new Label("This is a label...");
+        label = new Label("Click to get an alert box");
 
         // Layout
         layout = new VBox(15);
@@ -37,7 +37,7 @@ public class Main extends Application {
 
         // Scene & Stage
         scene = new Scene(layout, 350, 200);
-        stage.setTitle("My App (renamed again by Jake)");
+        stage.setTitle("My App");
         stage.setScene(scene);
         stage.show();
     }
